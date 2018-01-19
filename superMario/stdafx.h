@@ -35,8 +35,8 @@ using namespace HEPTA_UTIL;
 //=======================================================
 
 #define WINNAME		(LPTSTR)TEXT("Hepta Window API")
-#define WINSTARTX	2000	//윈도우 시작좌표 X
-#define WINSTARTY	50		//윈도우 시작좌표 Y
+#define WINSTARTX	0	//윈도우 시작좌표 X
+#define WINSTARTY	0		//윈도우 시작좌표 Y
 #define WINSIZEX	800		//윈도우 가로크기
 #define WINSIZEY	800		//윈도우 세로크기
 #define WINSTYLE	WS_CAPTION | WS_SYSMENU
