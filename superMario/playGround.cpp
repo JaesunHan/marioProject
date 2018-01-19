@@ -15,16 +15,6 @@ playGround::~playGround()
 HRESULT playGround::init()
 {
 	gameNode::init(true);
-
-	IMAGEMANAGER->addImage("¹ÙÅÁ", "¿ìÁÖ.bmp", WINSIZEX, WINSIZEY, false, RGB(255, 0, 255));
-	IMAGEMANAGER->addFrameImage("battle", "battle.bmp", 0, 0, 1536, 79, 16, 1, true, RGB(255, 0, 255));
-	IMAGEMANAGER->addFrameImage("battle2", "battle.bmp", 0, 0, 1536, 79, 16, 1, true, RGB(255, 0, 255));
-
-
-	IMAGEMANAGER->addImage("bullet", "bullet.bmp", 21, 21, true, RGB(255, 0, 255));
-	IMAGEMANAGER->addFrameImage("missilePF", "missilePF.bmp", 0, 0, 576, 44, 16, 1, true, RGB(255, 0, 255));
-	IMAGEMANAGER->addFrameImage("¹öÆ°", "button.bmp", 0, 0, 122, 62, 1, 2, true, RGB(255, 0, 255));
-	
 	_select = new selectScene;
 	
 	SCENEMANAGER->addScene("¼¿·ºÆ®¾À", _select);
